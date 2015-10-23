@@ -34,8 +34,8 @@ hornOne = \relative c'' {
   \time 4/4
   \unisonMelody \break \unisonMelody \break
   r1 r1 r1 r1 |
-  d2\< c | d1\> | r\! r1 |
-  f8. g16~ g4 a,16 d8\staccato c16 f g8.~ |
+  d'2\< c | d1\> | r\! r1 |
+  f,8. g16~ g4 a,16 d8\staccato c16 f g8.~ |
   g8. f16~ f8 d8 c16 f8 ees16 bes' c8 a16~ |
   a1\> r1\!
 }
@@ -45,8 +45,8 @@ hornTwo = \relative c'' {
   \time 4/4
   \unisonMelody \break \unisonMelody \break
   r1 r1 r1 r1
-  g1~\< g1\> r1\! r1 |
-  f'4~ f16 d bes f~ f8. g16~ g8 a~ |
+  g'1~\< g1\> r1\! r1 |
+  f4~ f16 d bes f~ f8. g16~ g8 a~ |
   a16 g8\staccato f16 g bes8 g16 c f8 ees16 bes' c8 a16~ |
   a1\> r1\!
 }
@@ -61,5 +61,7 @@ chordNotation = \chords {
   \chordNotation
   \transpose bes c \hornOne
   \transpose bes c \hornTwo
+  \transpose ees c \hornOne
+  \transpose ees c \hornTwo
   \bass
 >>
