@@ -15,7 +15,7 @@ bassLift = \relative c' {
 }
 
 unisonMelody = \relative c''' {
-  ges16 g r8 r4 g16 f d bes r c r bes |
+  aes16 g r8 r4 g16 f d bes r c r bes |
   c bes g8 r4 r2 |
 }
   
